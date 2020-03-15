@@ -1,0 +1,20 @@
+@mixin border-radius($radius) {
+	border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+}
+
+@mixin call-to-action-btn($vpadding) {
+	
+	padding: $vpadding;
+	background: #fff;
+	color: $cta_blue;
+	border:1px solid $cta_blue;
+	font-family: $helvetica_neue;
+	&:hover{
+		border:2px solid $cta_blue_active;
+		font-family: $helvetica_neue_medium;
+		color: $cta_blue_active;
+		box-sizing: border-box;
+	}
+}

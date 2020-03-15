@@ -1,0 +1,20 @@
+@font-face {font-family: "helveticaneueregular";
+    src: url("../fonts/helvetica/0d49fc455f4a8951a42daf952412a713.eot"); /* IE9*/
+    src: url("../fonts/helvetica/0d49fc455f4a8951a42daf952412a713.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/helvetica/0d49fc455f4a8951a42daf952412a713.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/helvetica/0d49fc455f4a8951a42daf952412a713.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/helvetica/0d49fc455f4a8951a42daf952412a713.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/helvetica/0d49fc455f4a8951a42daf952412a713.svg#Helvetica Neue Regular") format("svg"); /* iOS 4.1- */
+  }
+
+  @font-face {
+    font-family: 'helveticaneuemedium';
+    src: url('../fonts/helvetica/helveticaneue_medium-webfont.woff2') format('woff2'),
+         url('../fonts/helvetica/helveticaneue_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$helvetica_neue: 'helveticaneueregular', sans-serif;
+$helvetica_neue_medium: 'helveticaneuemedium', sans-serif;
